@@ -1,0 +1,10 @@
+{
+  "coatjava": {
+    "url": "https://github.com/Pabce/coatjava.git",
+    "commit": "bb16902238d802e16d7113556a6990ba37347f5b"
+  },
+  "bandsoft_tools": {
+    "url": "https://github.com/Pabce/bandsoft_tools.git",
+    "commit": "1749c49d5165a8b66e949607eb3b3176427ed04b"
+  }
+}

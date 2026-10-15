@@ -1,0 +1,147 @@
+{
+  "build_scope": "Existing clean pinned source checkouts and Maven cache; fresh harness CMake libraries and external drivers; Maven classpath resolution tested.",
+  "date": "2026-10-15",
+  "environment": {
+    "ROOT": "6.38.04",
+    "gcc": "11.5.0",
+    "java": "21.0.2",
+    "site": "JLab/ifarm"
+  },
+  "pins": {
+    "bandsoft_tools": {
+      "commit": "1749c49d5165a8b66e949607eb3b3176427ed04b",
+      "url": "https://github.com/Pabce/bandsoft_tools.git"
+    },
+    "coatjava": {
+      "commit": "bb16902238d802e16d7113556a6990ba37347f5b",
+      "url": "https://github.com/Pabce/coatjava.git"
+    }
+  },
+  "real_data": {
+    "accepted_cpp": 206,
+    "accepted_java": 206,
+    "chunks": 10,
+    "eligible_hits": 320,
+    "input_published": false,
+    "mismatches": 0,
+    "period": 0,
+    "records": 10000,
+    "run": 6363
+  },
+  "real_data_resume": {
+    "new_subprocess_phases": 0,
+    "reused_phases": 31
+  },
+  "selftest_resume": {
+    "new_subprocess_phases": 0,
+    "reused_phases": 39
+  },
+  "synthetic": {
+    "comparisons": [
+      {
+        "chunks": [
+          {
+            "accepted_cpp": 110,
+            "accepted_java": 110,
+            "eligible_hits": 581,
+            "records": 147,
+            "start": 0
+          }
+        ],
+        "mismatches": 0,
+        "mode": "neutrons",
+        "records": 147
+      },
+      {
+        "chunks": [
+          {
+            "bars": 581,
+            "laser_events": 2,
+            "pmts": 1080,
+            "records": 147,
+            "start": 0
+          }
+        ],
+        "mismatches": 0,
+        "mode": "hits",
+        "records": 147
+      },
+      {
+        "chunks": [
+          {
+            "accepted_cpp": 110,
+            "accepted_java": 110,
+            "eligible_hits": 581,
+            "records": 147,
+            "start": 0
+          }
+        ],
+        "mismatches": 0,
+        "mode": "neutrons",
+        "records": 147
+      },
+      {
+        "chunks": [
+          {
+            "bars": 581,
+            "laser_events": 2,
+            "pmts": 1080,
+            "records": 147,
+            "start": 0
+          }
+        ],
+        "mismatches": 0,
+        "mode": "hits",
+        "records": 147
+      }
+    ],
+    "mismatches": 0,
+    "neutron_contracts": 17,
+    "raw_neutron_fixture_records": 300,
+    "reconstruction_contracts": 21,
+    "selector_cases": 10049,
+    "timing_free_fixture_records": 294
+  },
+  "tested_source_sha256": {
+    "harness/BandMultiplicity.java": "c70a92204f2403a3a274ed041889a5dec9d3bea33833e47ecffaa728e1a5f24c",
+    "harness/BandPortContractTests.java": "769e87f08f75b4f2a50957c7fb41ea9ef98efd1f42e209fdadf7d6f4f41790b0",
+    "harness/BaselineJava.java": "a9d7555272613592752001a7ade282586f65ceb74d9cb7d5440b984970f51d98",
+    "harness/CampaignConstants.java": "36c193f101d39700c258ee2415f0e6e04571dfb441c3edf9bfbc003bc1fb395a",
+    "harness/CampaignFixtures.java": "407186c18e8b6795eb0987424992b0eb8817dbaeec7ea1b28b2bca50e0370c39",
+    "harness/CampaignJava.java": "025d2606a4c007abef0ffcafa6b29a4d1f3793f3ec8c17ad2797da3290ec14b7",
+    "harness/FilterTimedHipo.java": "b2a7e507bd0b0b3006ce0c4074710e3ccd545d3bfb5a872ec15590b07f6efbdb",
+    "harness/FreezeHipo.java": "be2a67f9f0698ad0ff9dbe6d8b3046c1aa84431b1be4a8cac258c63cdb1d0a93",
+    "harness/FreezeTaggedHipo.java": "533e742e43216333ab555cb7e544c140c6d3849ef278b7c199e965ab82cec163",
+    "harness/HitOnlyJava.java": "4043220c35e8230e0a6040bcf602ec9ae9a4977be0141646929d5d42be0f6c01",
+    "harness/HitOnlyReadback.java": "4b758de2525ebc4800d794e0644702b0474faf1ac59d215db97bfe1b224930f9",
+    "harness/InspectHipo.java": "5bcae47c496752fdfbbf943c8b0a8f13b0e0305210d534f380ee80a3db4df5ee",
+    "harness/InventoryBandHipo.java": "78d3350577222f1b564a5cddaf3e19881357111d629664a647600d684d78609c",
+    "harness/LaserDecodeAudit.java": "3a1e04714bad9c771e3186af39263fd9b94fce8c4064062247c27fe01ca77d72",
+    "harness/MakeBandFixtures.java": "dbf5fa2d1bec4567024a39465708eb9460fa7f63c233dd68533adb07fc46c589",
+    "harness/NeutronContractTests.java": "32afb2b9b22e8f14453751f06ee3438470228d813db0fd9ba2511c4f84fe9f96",
+    "harness/NeutronHipoReadback.java": "76f225eba5d6a05c931f9445f3b4a6d9aff6d4e8a6c8f86b57a197aff2c58b33",
+    "harness/NeutronJava.java": "e8f908583fbcc2eacb7a3df8a56556b5ffe82639117a902bbd21ffc28960da49",
+    "harness/NeutronSelectorJava.java": "5c8e997cedc1a649e6e6750b9842f7b634501947c698b17052bf90654eea2d9c",
+    "harness/PortJava.java": "58869b54dee7d1830109b08fb60041ec2c6e03a5681ee21ff97432decbfc9912",
+    "harness/QAAudit.cpp": "c588991818c078326653b987ee6323874d4be9ee05751a481d1fc9f82e98fdc5",
+    "harness/RemoveRecTiming.java": "7eae5912513c2f390cae6cb6769c6f4236bdd349d4737fde6ee57f45e427f157",
+    "harness/SchemaSeed.java": "ce3958fcd8c32f7d14fdc70d8453dc12df2fbe3c661ea9ce93ed1f134a57865a",
+    "harness/SnapshotConstants.java": "ad3acb8a6c39eb0f59e926f8dc77c75ea70026dcc981662cb8dd2237dbfcb005",
+    "harness/baseline_cpp.cpp": "6c2232ff22ced788e063a80970b1c6cc752f50c9b6a78a8d0b3b3cfe2eb0e8d0",
+    "harness/campaign_cpp.cpp": "3ef8f2cdb817b49285e147209dad1d8f17dd4a9f40cf3d9de5cb6bb015f387df",
+    "harness/compare.py": "c3670b853d29f86a5b03c809f345ca2b8fa61aa53567fc1d0c37db2810c01f72",
+    "harness/compare_hits.py": "73243f57aa875ab1b150912f42470598c0792f6b2db7a686cb17cc78ed4b5424",
+    "harness/compare_neutrons.py": "4905ff22bf775133a2e1bcb57e8497e4d6dd7bf7bd4ff78fce665be82aa4641e",
+    "harness/hit_only_cpp.cpp": "593c8777e4388925621d44f680cbfd1b5b672f511edb56d64a28d406eedea314",
+    "harness/neutron_selector_cpp.cpp": "12ec522fc7676db760ae80089c47fd2b41c23a9530bddf7e6310bab239e9751e",
+    "harness/reconstruction_cpp.cpp": "0b5cfb02cada8f5089575cbaf41ca217a6dbc10a55a97c142b1120535963cdbc",
+    "harness/selector_contract.cpp": "fc7ebd70133fe2ead044de62352970159a9466d9e72bc5333ad9d9ba12612fed",
+    "harness/test_compare.py": "452b8d33be28c47ebff884f5cf93f6bc169c809e22450c38799a320571f6d18e",
+    "scripts/build.py": "b8be964e12206412b9f6e9c76f7f0a9c399b2f45c8e0e0bcbccd56c3e5a1e024",
+    "scripts/common.py": "23af08901a71e719582f09451852e6b282bdb019eb02468f085056f4545a846a",
+    "scripts/convert_calibrations.py": "7ddc29cc78fc9b3e50adf6a48ed2d1ad3062338aac19b98882d96fe3e8bb83cb",
+    "scripts/make_neutron_cases.py": "d9408565dbc23914bc68e2ff5c6665df4601de31eb62dff922f9a88bfe387ba0",
+    "scripts/setup.py": "e1e113461779b6a2f00730213a9be551bfcb1477729c01c8c6082e1f3ff222a9",
+    "scripts/validate.py": "6460dab73bc46e2cee26ca4a0f24a5a29d81f6fea7a9bc47526b774c890bfda8"
+  }
+}

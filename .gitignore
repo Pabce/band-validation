@@ -1,0 +1,12 @@
+/deps/
+/build/
+/results/
+/local-config.json
+__pycache__/
+*.pyc
+*.partial
+*.hipo
+*.evio
+*.root
+*.jsonl
+*.log

@@ -1,0 +1,149 @@
+{
+  "service_task_commit": "6d084f1",
+  "unchanged_harness_files": {
+    "harness/baseline_cpp.cpp": {
+      "source_sha256": "6c2232ff22ced788e063a80970b1c6cc752f50c9b6a78a8d0b3b3cfe2eb0e8d0",
+      "public_sha256": "6c2232ff22ced788e063a80970b1c6cc752f50c9b6a78a8d0b3b3cfe2eb0e8d0"
+    },
+    "harness/RemoveRecTiming.java": {
+      "source_sha256": "7eae5912513c2f390cae6cb6769c6f4236bdd349d4737fde6ee57f45e427f157",
+      "public_sha256": "7eae5912513c2f390cae6cb6769c6f4236bdd349d4737fde6ee57f45e427f157"
+    },
+    "harness/QAAudit.cpp": {
+      "source_sha256": "c588991818c078326653b987ee6323874d4be9ee05751a481d1fc9f82e98fdc5",
+      "public_sha256": "c588991818c078326653b987ee6323874d4be9ee05751a481d1fc9f82e98fdc5"
+    },
+    "harness/BandMultiplicity.java": {
+      "source_sha256": "c70a92204f2403a3a274ed041889a5dec9d3bea33833e47ecffaa728e1a5f24c",
+      "public_sha256": "c70a92204f2403a3a274ed041889a5dec9d3bea33833e47ecffaa728e1a5f24c"
+    },
+    "harness/MakeBandFixtures.java": {
+      "source_sha256": "dbf5fa2d1bec4567024a39465708eb9460fa7f63c233dd68533adb07fc46c589",
+      "public_sha256": "dbf5fa2d1bec4567024a39465708eb9460fa7f63c233dd68533adb07fc46c589"
+    },
+    "harness/LaserDecodeAudit.java": {
+      "source_sha256": "3a1e04714bad9c771e3186af39263fd9b94fce8c4064062247c27fe01ca77d72",
+      "public_sha256": "3a1e04714bad9c771e3186af39263fd9b94fce8c4064062247c27fe01ca77d72"
+    },
+    "harness/FreezeTaggedHipo.java": {
+      "source_sha256": "533e742e43216333ab555cb7e544c140c6d3849ef278b7c199e965ab82cec163",
+      "public_sha256": "533e742e43216333ab555cb7e544c140c6d3849ef278b7c199e965ab82cec163"
+    },
+    "harness/selector_contract.cpp": {
+      "source_sha256": "fc7ebd70133fe2ead044de62352970159a9466d9e72bc5333ad9d9ba12612fed",
+      "public_sha256": "fc7ebd70133fe2ead044de62352970159a9466d9e72bc5333ad9d9ba12612fed"
+    },
+    "harness/CampaignConstants.java": {
+      "source_sha256": "36c193f101d39700c258ee2415f0e6e04571dfb441c3edf9bfbc003bc1fb395a",
+      "public_sha256": "36c193f101d39700c258ee2415f0e6e04571dfb441c3edf9bfbc003bc1fb395a"
+    },
+    "harness/CampaignJava.java": {
+      "source_sha256": "025d2606a4c007abef0ffcafa6b29a4d1f3793f3ec8c17ad2797da3290ec14b7",
+      "public_sha256": "025d2606a4c007abef0ffcafa6b29a4d1f3793f3ec8c17ad2797da3290ec14b7"
+    },
+    "harness/HitOnlyJava.java": {
+      "source_sha256": "4043220c35e8230e0a6040bcf602ec9ae9a4977be0141646929d5d42be0f6c01",
+      "public_sha256": "4043220c35e8230e0a6040bcf602ec9ae9a4977be0141646929d5d42be0f6c01"
+    },
+    "harness/InventoryBandHipo.java": {
+      "source_sha256": "78d3350577222f1b564a5cddaf3e19881357111d629664a647600d684d78609c",
+      "public_sha256": "78d3350577222f1b564a5cddaf3e19881357111d629664a647600d684d78609c"
+    },
+    "harness/BandPortContractTests.java": {
+      "source_sha256": "769e87f08f75b4f2a50957c7fb41ea9ef98efd1f42e209fdadf7d6f4f41790b0",
+      "public_sha256": "769e87f08f75b4f2a50957c7fb41ea9ef98efd1f42e209fdadf7d6f4f41790b0"
+    },
+    "harness/hit_only_cpp.cpp": {
+      "source_sha256": "593c8777e4388925621d44f680cbfd1b5b672f511edb56d64a28d406eedea314",
+      "public_sha256": "593c8777e4388925621d44f680cbfd1b5b672f511edb56d64a28d406eedea314"
+    },
+    "harness/neutron_selector_cpp.cpp": {
+      "source_sha256": "12ec522fc7676db760ae80089c47fd2b41c23a9530bddf7e6310bab239e9751e",
+      "public_sha256": "12ec522fc7676db760ae80089c47fd2b41c23a9530bddf7e6310bab239e9751e"
+    },
+    "harness/NeutronJava.java": {
+      "source_sha256": "e8f908583fbcc2eacb7a3df8a56556b5ffe82639117a902bbd21ffc28960da49",
+      "public_sha256": "e8f908583fbcc2eacb7a3df8a56556b5ffe82639117a902bbd21ffc28960da49"
+    },
+    "harness/compare_neutrons.py": {
+      "source_sha256": "4905ff22bf775133a2e1bcb57e8497e4d6dd7bf7bd4ff78fce665be82aa4641e",
+      "public_sha256": "4905ff22bf775133a2e1bcb57e8497e4d6dd7bf7bd4ff78fce665be82aa4641e"
+    },
+    "harness/NeutronContractTests.java": {
+      "source_sha256": "32afb2b9b22e8f14453751f06ee3438470228d813db0fd9ba2511c4f84fe9f96",
+      "public_sha256": "32afb2b9b22e8f14453751f06ee3438470228d813db0fd9ba2511c4f84fe9f96"
+    },
+    "harness/HitOnlyReadback.java": {
+      "source_sha256": "4b758de2525ebc4800d794e0644702b0474faf1ac59d215db97bfe1b224930f9",
+      "public_sha256": "4b758de2525ebc4800d794e0644702b0474faf1ac59d215db97bfe1b224930f9"
+    },
+    "harness/compare_hits.py": {
+      "source_sha256": "73243f57aa875ab1b150912f42470598c0792f6b2db7a686cb17cc78ed4b5424",
+      "public_sha256": "73243f57aa875ab1b150912f42470598c0792f6b2db7a686cb17cc78ed4b5424"
+    },
+    "harness/InspectHipo.java": {
+      "source_sha256": "5bcae47c496752fdfbbf943c8b0a8f13b0e0305210d534f380ee80a3db4df5ee",
+      "public_sha256": "5bcae47c496752fdfbbf943c8b0a8f13b0e0305210d534f380ee80a3db4df5ee"
+    },
+    "harness/reconstruction_cpp.cpp": {
+      "source_sha256": "0b5cfb02cada8f5089575cbaf41ca217a6dbc10a55a97c142b1120535963cdbc",
+      "public_sha256": "0b5cfb02cada8f5089575cbaf41ca217a6dbc10a55a97c142b1120535963cdbc"
+    },
+    "harness/campaign_cpp.cpp": {
+      "source_sha256": "3ef8f2cdb817b49285e147209dad1d8f17dd4a9f40cf3d9de5cb6bb015f387df",
+      "public_sha256": "3ef8f2cdb817b49285e147209dad1d8f17dd4a9f40cf3d9de5cb6bb015f387df"
+    },
+    "harness/NeutronHipoReadback.java": {
+      "source_sha256": "76f225eba5d6a05c931f9445f3b4a6d9aff6d4e8a6c8f86b57a197aff2c58b33",
+      "public_sha256": "76f225eba5d6a05c931f9445f3b4a6d9aff6d4e8a6c8f86b57a197aff2c58b33"
+    },
+    "harness/PortJava.java": {
+      "source_sha256": "58869b54dee7d1830109b08fb60041ec2c6e03a5681ee21ff97432decbfc9912",
+      "public_sha256": "58869b54dee7d1830109b08fb60041ec2c6e03a5681ee21ff97432decbfc9912"
+    },
+    "harness/FreezeHipo.java": {
+      "source_sha256": "be2a67f9f0698ad0ff9dbe6d8b3046c1aa84431b1be4a8cac258c63cdb1d0a93",
+      "public_sha256": "be2a67f9f0698ad0ff9dbe6d8b3046c1aa84431b1be4a8cac258c63cdb1d0a93"
+    },
+    "harness/test_compare.py": {
+      "source_sha256": "452b8d33be28c47ebff884f5cf93f6bc169c809e22450c38799a320571f6d18e",
+      "public_sha256": "452b8d33be28c47ebff884f5cf93f6bc169c809e22450c38799a320571f6d18e"
+    },
+    "harness/CampaignFixtures.java": {
+      "source_sha256": "407186c18e8b6795eb0987424992b0eb8817dbaeec7ea1b28b2bca50e0370c39",
+      "public_sha256": "407186c18e8b6795eb0987424992b0eb8817dbaeec7ea1b28b2bca50e0370c39"
+    },
+    "harness/NeutronSelectorJava.java": {
+      "source_sha256": "5c8e997cedc1a649e6e6750b9842f7b634501947c698b17052bf90654eea2d9c",
+      "public_sha256": "5c8e997cedc1a649e6e6750b9842f7b634501947c698b17052bf90654eea2d9c"
+    },
+    "harness/compare.py": {
+      "source_sha256": "c3670b853d29f86a5b03c809f345ca2b8fa61aa53567fc1d0c37db2810c01f72",
+      "public_sha256": "c3670b853d29f86a5b03c809f345ca2b8fa61aa53567fc1d0c37db2810c01f72"
+    },
+    "harness/BaselineJava.java": {
+      "source_sha256": "a9d7555272613592752001a7ade282586f65ceb74d9cb7d5440b984970f51d98",
+      "public_sha256": "a9d7555272613592752001a7ade282586f65ceb74d9cb7d5440b984970f51d98"
+    },
+    "harness/FilterTimedHipo.java": {
+      "source_sha256": "b2a7e507bd0b0b3006ce0c4074710e3ccd545d3bfb5a872ec15590b07f6efbdb",
+      "public_sha256": "b2a7e507bd0b0b3006ce0c4074710e3ccd545d3bfb5a872ec15590b07f6efbdb"
+    },
+    "harness/SnapshotConstants.java": {
+      "source_sha256": "ad3acb8a6c39eb0f59e926f8dc77c75ea70026dcc981662cb8dd2237dbfcb005",
+      "public_sha256": "ad3acb8a6c39eb0f59e926f8dc77c75ea70026dcc981662cb8dd2237dbfcb005"
+    }
+  },
+  "new": [
+    "harness/SchemaSeed.java",
+    "scripts/setup.py",
+    "scripts/build.py",
+    "scripts/validate.py",
+    "scripts/common.py"
+  ],
+  "adapted": [
+    "scripts/make_neutron_cases.py",
+    "scripts/convert_calibrations.py"
+  ],
+  "excluded": "No experimental data, personal paths, private configuration, mail, technical note, or historical site logs."
+}
